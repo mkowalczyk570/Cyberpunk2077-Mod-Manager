@@ -1,0 +1,15 @@
+{
+  "name": "cyberpunk2077-mod-manager",
+  "version": "1.0.0",
+  "description": "A mod manager for Cyberpunk 2077, which will update and move mods into their appropriate game folder locations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./data/app.js"
+  },
+  "author": "Maciej Kowalczyk",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
